@@ -1,0 +1,188 @@
+﻿<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>CARTA PDF</title>
+	<script src="https://kit.fontawesome.com/547d00b976.js"></script><strong></strong>
+</head>
+<body>
+<table width="930" height="841px" align="center" cellpadding="0" cellspacing="0" border="0" style="font-family: Arial; font-size: 18px; text-align: center;">
+        <tbody>
+            <tr>
+                <td>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="5">
+                      <tbody>
+                        <tr>
+                          <td colspan="9">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td height="100" colspan="9"><table width="100%" border="0" cellspacing="0" cellpadding="3">
+                            <tbody>
+                              <tr>
+							  <td height="50" colspan="2" bgcolor="#0f4958" style="text-align: center"><strong style="color: #ffffff">{NombreEntidad}</strong></td>
+
+                              </tr>
+                            </tbody>
+                          </table></td>
+                        </tr>
+                        <tr>
+                          <td colspan="9" style="padding: 0 5em;"><table width="100%" border="0" cellspacing="0" cellpadding="3" >
+                            <tbody>
+                                <tr>
+                                  <td width="50%">&nbsp;</td>
+                                  <td width="50%">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td style="text-align: center" td width="0%" bgcolor="#0f4958" align="center"><strong style="color: #ffffff; font-family: Arial;">DATOS DEL CLIENTE</strong></td>
+                                  <td style="text-align: center" td width="50%"align="center">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td>&nbsp;</td>
+                                  <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td>Nombre</td>
+                                  <td><strong>{Nombre}</strong></td>
+                                </tr>
+                                <tr>
+                                  <td>Identificación</td>
+                                  <td><strong>{Identificacion}</strong></td>
+                                </tr>
+                                <tr>
+                                  <td>Teléfono</td>
+                                  <td><strong>{Telefono}</strong></td>
+                                </tr>
+                                <tr>
+                                  <td>E­mail</td>
+                                  <td><strong><a>{Email}</a></strong></td>
+                                </tr>
+                                <tr>
+                                  <td>Dirección IP</td>
+                                  <td><strong>{IP}</strong></td>
+                                </tr>
+                                <tr>
+                                  <td>&nbsp;</td>
+                                  <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td>&nbsp;</td>
+                                  <td>&nbsp;</td>
+                                </tr>
+                            </tbody>
+                          </table></td>
+                        </tr>
+                        <tr>
+                          <td colspan="9"><table width="100%" border="0" cellspacing="0" cellpadding="10">
+                            <tbody>
+                              <tr>
+                                <td height="40" colspan="2" bgcolor="#0f4958" style="text-align: center"><strong style="color: #ffffff">DATOS DEL PAGO</strong></td>
+                              </tr>
+                              <tr>
+                                <td width="50%" height="40">Estado Transacción</td>
+                                <td width="50%" align="center">{EstadoTransaccion}</td>
+                              </tr>
+                              <tr>
+                                <td bgcolor="#C7CBCA" >Número Autorización/CUS</td>
+                                <td align="center" bgcolor="#C7CBCA">{CUS}</td>
+                              </tr>
+                              <tr>
+                                <td>Banco</td>
+                                <td align="center">{Banco}</td>
+                              </tr>
+                              <tr>
+                                <td bgcolor="#C7CBCA">Descripción</td>
+                                <td align="center" bgcolor="#C7CBCA">{Descripcion}</td>
+                              </tr>
+                              <tr>
+                                <td>Número Factura</td>
+                                <td align="center" >{NumeroFactura}</td>
+                              </tr>
+                              <tr>
+                                <td bgcolor="#C7CBCA">Fecha Solicitud</td>
+                                <td align="center" bgcolor="#C7CBCA">{FechaSolicitud}</td>
+                              </tr>
+                              <tr>
+                                <td>Fecha Respuesta</td>
+                                <td align="center" >{FechaRespuesta}</td>
+                              </tr>
+                              <tr>
+                                <td bgcolor="#C7CBCA">Ciclo Transacción</td>
+                                <td align="center"  bgcolor="#C7CBCA">{CicloTransaccion}</td>
+                              </tr>
+                              
+                            </tbody>
+                          </table><hr></td>
+                        </tr>
+                        <tr>
+                          <td colspan="9"><table width="100%" border="0" cellspacing="0" cellpadding="5">
+                            <tbody>
+                              <tr>
+                                <td>&nbsp;</td>
+                                <td width="25%" align="right" style="text-align: center">Valor Iva</td>
+                                <td width="26%" align="center">0</td>
+                              </tr>
+                              <tr>
+                                <td rowspan="2">&nbsp;</td>
+                              </tr>
+                              <tr>
+                                <td height="29" align="center" bgcolor="#bf2740" style="font-size: 20px; color: #FFFFFF;">Valor Transacción</td>
+                                <td align="center" bgcolor="#1f7f3a" style="color: #FFFFFF;font-size: 18px;"><strong>{ValorTransaccion}</strong></td>
+                              </tr>
+                            </tbody>
+                          </table></td>
+                        </tr>
+                        <tr>
+                          <td colspan="9"><table width="100%" border="0" cellspacing="2" cellpadding="0">
+                            <tbody>
+                              <tr>
+                                <td height="50px" colspan="2" style="text-align: center; background-color: #0f4958"> <strong style="color: #ffffff">DATOS DEL MUNICIPIO</strong><span><br>
+                                </span></td>
+                              </tr>
+                              <tr>
+                                <td width="49%" style="text-align: center">Nombre Municipio</td>
+                                <td width="51%" style="text-align: center"><strong>{NombreEntidad}</strong></td>
+                              </tr>
+                              <tr>
+                                <td style="text-align: center">Nit</td>
+                                <td style="text-align: center"><strong>{Nit}</strong></td>
+                              </tr>
+                              <tr>
+                                <td style="text-align: center">Teléfono </td>
+                                <td style="text-align: center"><strong>{TelefonoMunicipio}</strong></td>
+                              </tr>
+                            </tbody>
+                          </table></td>
+                        </tr>
+                        <tr>
+                        </tr>
+                        <tr>
+                          <td colspan="9">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td colspan="9"><table width="100%" border="0" cellspacing="0" cellpadding="10">
+                            <tbody>
+                              
+                            </tbody>
+                          </table></td>
+                        </tr>
+                        <tr>
+                          <td width="25%" bgcolor="#bf2740">&nbsp;</td>
+                          <td width="26%" bgcolor="#0f4958">&nbsp;</td>
+                          <td width="26%" bgcolor="#1f7f3a">&nbsp;</td>
+                          <td width="23%" bgcolor="#d89520">&nbsp;</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table align="center" cellpadding="0" cellspacing="0" style="font-family: arial; color: #000000; text-align: justify; line-height: 1em;">
+                        <tbody>
+                          
+                      </tbody>
+              </table>
+              </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
